@@ -1,0 +1,947 @@
+{
+  "version": "0.4",
+  "title": "Universal Institutions — Home",
+  "type": "page",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+  },
+  "content": [
+    {
+      "id": "uihero01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#0A2E65",
+        "padding": { "unit": "px", "top": "160", "right": "20", "bottom": "120", "left": "20", "isLinked": false },
+        "content_position": "middle"
+      },
+      "elements": [
+        {
+          "id": "uiherocl1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 60, "_inline_size": 60 },
+          "elements": [
+            {
+              "id": "uiheroeb1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "ADMISSIONS 2026 NOW OPEN",
+                "header_size": "h6",
+                "title_color": "#FDB913",
+                "typography_typography": "custom",
+                "typography_font_weight": "700",
+                "typography_letter_spacing": { "unit": "px", "size": 3 }
+              },
+              "elements": []
+            },
+            {
+              "id": "uiheroh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Shape Your Future With World-Class Education",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 56 },
+                "typography_line_height": { "unit": "em", "size": 1.1 }
+              },
+              "elements": []
+            },
+            {
+              "id": "uiherotx1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Universal Institutions blends industry-aligned curricula, visionary faculty and a thriving placement ecosystem to transform ambitious students into tomorrow&rsquo;s leaders.</p>",
+                "text_color": "#D6E0F2",
+                "typography_typography": "custom",
+                "typography_font_size": { "unit": "px", "size": 18 }
+              },
+              "elements": []
+            },
+            {
+              "id": "uiherobtw",
+              "elType": "section",
+              "isInner": true,
+              "settings": { "gap": "narrow" },
+              "elements": [
+                {
+                  "id": "uiherobc1",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": { "_column_size": 50, "_inline_size": 50 },
+                  "elements": [
+                    {
+                      "id": "uiherob1",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Apply for Admission",
+                        "link": { "url": "#admissions" },
+                        "background_color": "#FDB913",
+                        "button_text_color": "#0A2E65",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true },
+                        "typography_typography": "custom",
+                        "typography_font_weight": "600"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "uiherobc2",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": { "_column_size": 50, "_inline_size": 50 },
+                  "elements": [
+                    {
+                      "id": "uiherob2",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Explore Programs",
+                        "link": { "url": "#courses" },
+                        "button_type": "default",
+                        "background_color": "rgba(255,255,255,0.1)",
+                        "button_text_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                        "border_color": "rgba(255,255,255,0.4)",
+                        "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "uiherocl2",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 40, "_inline_size": 40 },
+          "elements": [
+            {
+              "id": "uiheroimg",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" },
+                "image_size": "full",
+                "border_radius": { "unit": "px", "top": "32", "right": "32", "bottom": "32", "left": "32", "isLinked": true }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uistats01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#0A2E65",
+        "padding": { "unit": "px", "top": "80", "right": "20", "bottom": "80", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uistatc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uistatw1",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "ending_number": 96, "suffix": "%", "title": "Placement Rate",
+                "number_color": "#FDB913", "title_color": "#FFFFFF",
+                "typography_number_typography": "custom", "typography_number_font_weight": "800"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uistatc2",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uistatw2",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "ending_number": 540, "suffix": "+", "title": "Recruiting Partners",
+                "number_color": "#FDB913", "title_color": "#FFFFFF",
+                "typography_number_typography": "custom", "typography_number_font_weight": "800"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uistatc3",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uistatw3",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "ending_number": 42, "suffix": " LPA", "title": "Highest Package",
+                "number_color": "#FDB913", "title_color": "#FFFFFF",
+                "typography_number_typography": "custom", "typography_number_font_weight": "800"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uistatc4",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uistatw4",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "ending_number": 25000, "suffix": "+", "title": "Alumni Worldwide",
+                "number_color": "#FDB913", "title_color": "#FFFFFF",
+                "typography_number_typography": "custom", "typography_number_font_weight": "800"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uicrshd01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uicrshdc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": 100 },
+          "elements": [
+            {
+              "id": "uicrshdh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Future-Ready Courses",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0A2E65",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 42 }
+              },
+              "elements": []
+            },
+            {
+              "id": "uicrshdt1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center\">Industry-aligned programs across engineering, management, design and research &mdash; built with global partners and taught by world-class faculty.</p>",
+                "text_color": "#4B5C78"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uicrsr101",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uicrsc101",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "uicrsw101",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-microchip", "library": "fa-solid" },
+                "title_text": "B.Tech in Computer Science & AI",
+                "description_text": "Master AI, machine learning and full-stack development with a curriculum co-designed with global tech leaders.",
+                "position": "top",
+                "primary_color": "#0A2E65",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78",
+                "icon_space": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uicrsc102",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "uicrsw102",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-briefcase", "library": "fa-solid" },
+                "title_text": "Master of Business Administration",
+                "description_text": "A future-ready MBA with specializations in finance, marketing, analytics and entrepreneurship.",
+                "position": "top",
+                "primary_color": "#0A2E65",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78",
+                "icon_space": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uicrsc103",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "uicrsw103",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-palette", "library": "fa-solid" },
+                "title_text": "B.Des in UX & Product Design",
+                "description_text": "Build human-centred products through studio learning, design thinking and real client projects.",
+                "position": "top",
+                "primary_color": "#0A2E65",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78",
+                "icon_space": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uicrsr201",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "90", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uicrsc201",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "uicrsw201",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-chart-line", "library": "fa-solid" },
+                "title_text": "M.Sc in Data Science",
+                "description_text": "Turn data into decisions with advanced statistics, big data engineering and applied AI.",
+                "position": "top",
+                "primary_color": "#0A2E65",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78",
+                "icon_space": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uicrsc202",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "uicrsw202",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-dna", "library": "fa-solid" },
+                "title_text": "B.Sc in Biotechnology",
+                "description_text": "Explore genetics, bioinformatics and pharma research in state-of-the-art wet labs.",
+                "position": "top",
+                "primary_color": "#0A2E65",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78",
+                "icon_space": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uicrsc203",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "uicrsw203",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-graduation-cap", "library": "fa-solid" },
+                "title_text": "Integrated Ph.D Programme",
+                "description_text": "An interdisciplinary research pathway with funded fellowships and global publications.",
+                "position": "top",
+                "primary_color": "#0A2E65",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78",
+                "icon_space": { "unit": "px", "size": 20 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uiadmn01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#0A2E65",
+        "border_radius": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "90", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uiadmnc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 60, "_inline_size": 60 },
+          "elements": [
+            {
+              "id": "uiadmnh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Your Seat at a Top-Ranked Institution Awaits",
+                "header_size": "h2",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 38 }
+              },
+              "elements": []
+            },
+            {
+              "id": "uiadmnt1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Limited seats across all programs. Apply early to unlock merit scholarships worth up to &#8377;5,00,000 and priority hostel allotment.</p>",
+                "text_color": "#D6E0F2"
+              },
+              "elements": []
+            },
+            {
+              "id": "uiadmnb1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Start Application",
+                "link": { "url": "#contact" },
+                "background_color": "#FDB913",
+                "button_text_color": "#0A2E65",
+                "border_radius": { "unit": "px", "top": "999", "right": "999", "bottom": "999", "left": "999", "isLinked": true }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uiadmnc2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 40, "_inline_size": 40,
+            "background_background": "classic",
+            "background_color": "rgba(255,255,255,0.08)",
+            "border_radius": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+            "padding": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true }
+          },
+          "elements": [
+            {
+              "id": "uiadmns1",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-file-alt", "library": "fa-solid" },
+                "title_text": "1. Submit Application",
+                "description_text": "Complete the online form in minutes.",
+                "position": "left",
+                "primary_color": "#FDB913",
+                "title_color": "#FFFFFF",
+                "description_color": "#D6E0F2"
+              },
+              "elements": []
+            },
+            {
+              "id": "uiadmns2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-calendar-alt", "library": "fa-solid" },
+                "title_text": "2. Attend Counselling",
+                "description_text": "Personalised guidance from our experts.",
+                "position": "left",
+                "primary_color": "#FDB913",
+                "title_color": "#FFFFFF",
+                "description_color": "#D6E0F2"
+              },
+              "elements": []
+            },
+            {
+              "id": "uiadmns3",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": { "value": "fas fa-phone-alt", "library": "fa-solid" },
+                "title_text": "3. Confirm Your Seat",
+                "description_text": "Secure admission and begin your journey.",
+                "position": "left",
+                "primary_color": "#FDB913",
+                "title_color": "#FFFFFF",
+                "description_color": "#D6E0F2"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uitsthd01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#EAF0FA",
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uitsthdc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": 100 },
+          "elements": [
+            {
+              "id": "uitsthdh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Stories of Success",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0A2E65",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 42 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uitstr01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#EAF0FA",
+        "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "90", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uitstc01",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": 50 },
+          "elements": [
+            {
+              "id": "uitstw01",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "The AI labs and mentorship at Universal gave me the confidence to crack one of the toughest interviews in tech. The placement cell prepared me for every round.",
+                "testimonial_image": { "url": "https://i.pravatar.cc/160?img=12" },
+                "testimonial_name": "Aarav Mehta",
+                "testimonial_job": "Software Engineer @ Google",
+                "testimonial_alignment": "center",
+                "content_content_color": "#0A2E65",
+                "name_text_color": "#0A2E65",
+                "job_text_color": "#E3A004"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uitstc02",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 50, "_inline_size": 50 },
+          "elements": [
+            {
+              "id": "uitstw02",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "From classroom theory to real client projects, every experience here was designed to make us industry-ready. The faculty truly invests in your growth.",
+                "testimonial_image": { "url": "https://i.pravatar.cc/160?img=45" },
+                "testimonial_name": "Sara Khan",
+                "testimonial_job": "Product Manager @ Adobe",
+                "testimonial_alignment": "center",
+                "content_content_color": "#0A2E65",
+                "name_text_color": "#0A2E65",
+                "job_text_color": "#E3A004"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uifachd01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uifachdc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": 100 },
+          "elements": [
+            {
+              "id": "uifachdh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "World-Class Faculty",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0A2E65",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 42 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uifacr01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "90", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uifacc01",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uifacw01",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "https://i.pravatar.cc/240?img=15" },
+                "title_text": "Dr. Vikram Iyer",
+                "description_text": "Dean, School of Engineering — Ph.D, Stanford University",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uifacc02",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uifacw02",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "https://i.pravatar.cc/240?img=49" },
+                "title_text": "Dr. Priya Nair",
+                "description_text": "Professor, Data Science — Ph.D, MIT",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uifacc03",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uifacw03",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "https://i.pravatar.cc/240?img=51" },
+                "title_text": "Prof. Arjun Kapoor",
+                "description_text": "Director, Business School — MBA, Harvard Business School",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uifacc04",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 25, "_inline_size": 25 },
+          "elements": [
+            {
+              "id": "uifacw04",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "image": { "url": "https://i.pravatar.cc/240?img=20" },
+                "title_text": "Dr. Meera Joshi",
+                "description_text": "Head, Design & Innovation — Ph.D, RCA London",
+                "title_color": "#0A2E65",
+                "description_color": "#4B5C78"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uigalhd01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#EAF0FA",
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "30", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uigalhdc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": 100 },
+          "elements": [
+            {
+              "id": "uigalhdh1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Life at Universal",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0A2E65",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 42 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uigalr01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#EAF0FA",
+        "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "90", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uigalc01",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 100, "_inline_size": 100 },
+          "elements": [
+            {
+              "id": "uigalw01",
+              "elType": "widget",
+              "widgetType": "image-gallery",
+              "settings": {
+                "gallery": [
+                  { "id": "", "url": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80" },
+                  { "id": "", "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=700&q=80" },
+                  { "id": "", "url": "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=80" },
+                  { "id": "", "url": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=700&q=80" },
+                  { "id": "", "url": "https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?auto=format&fit=crop&w=700&q=80" }
+                ],
+                "gallery_columns": 4,
+                "gap": { "unit": "px", "size": 16 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uicont01",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "gap": "extended",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "90", "right": "20", "bottom": "90", "left": "20", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "uicontc1",
+          "elType": "column",
+          "isInner": false,
+          "settings": { "_column_size": 40, "_inline_size": 40 },
+          "elements": [
+            {
+              "id": "uiconth1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Begin Your Journey",
+                "header_size": "h2",
+                "title_color": "#0A2E65",
+                "typography_typography": "custom",
+                "typography_font_family": "Poppins",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "px", "size": 38 }
+              },
+              "elements": []
+            },
+            {
+              "id": "uicontt1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Visit Us:</strong> Knowledge City, Education Boulevard, Bengaluru 560100</p><p><strong>Call Us:</strong> +91 80 4567 8900</p><p><strong>Email Us:</strong> admissions@universalinstitutions.edu</p>",
+                "text_color": "#4B5C78"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "uicontc2",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 60, "_inline_size": 60,
+            "background_background": "classic",
+            "background_color": "#F7F9FD",
+            "border_radius": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+            "padding": { "unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true }
+          },
+          "elements": [
+            {
+              "id": "uicontf1",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<!-- Replace with Elementor Pro Form widget, or a Contact Form 7 / WPForms shortcode. Basic fallback form below posts to the custom theme handler. -->\n<form action=\"/wp-admin/admin-post.php\" method=\"post\" style=\"display:grid;gap:14px\">\n  <input type=\"hidden\" name=\"action\" value=\"ui_contact\" />\n  <input name=\"name\" placeholder=\"Full Name\" required style=\"padding:12px 14px;border:1px solid #cdd9f0;border-radius:10px\" />\n  <input name=\"email\" type=\"email\" placeholder=\"Email Address\" required style=\"padding:12px 14px;border:1px solid #cdd9f0;border-radius:10px\" />\n  <input name=\"phone\" type=\"tel\" placeholder=\"Phone Number\" required style=\"padding:12px 14px;border:1px solid #cdd9f0;border-radius:10px\" />\n  <textarea name=\"message\" rows=\"4\" placeholder=\"Message\" style=\"padding:12px 14px;border:1px solid #cdd9f0;border-radius:10px\"></textarea>\n  <button type=\"submit\" style=\"padding:14px;background:#0A2E65;color:#fff;border:0;border-radius:999px;font-weight:600;cursor:pointer\">Submit Enquiry</button>\n</form>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Next.js (localhost:3000)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000,
+      "description": "Next.js site with updated Universal Group content"
+    },
+    {
+      "name": "WordPress Custom Theme (127.0.0.1:9400)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "@wp-playground/cli@latest",
+        "server",
+        "--port=9400",
+        "--mount-before-install=./wordpress-theme/universal-institutions:/wordpress/wp-content/themes/universal-institutions",
+        "--blueprint=./wp-blueprint.json"
+      ],
+      "port": 9400,
+      "description": "WordPress with custom hand-coded theme (fastest, pixel-perfect)"
+    },
+    {
+      "name": "Elementor WordPress (127.0.0.1:9700)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "@wp-playground/cli@latest",
+        "server",
+        "--port=9700",
+        "--mount-before-install=./wordpress-theme/elementor:/wordpress/wp-content/ui-elementor",
+        "--mount-before-install=./wordpress-theme/elementor/mu:/wordpress/wp-content/mu-plugins",
+        "--blueprint=./wp-blueprint-elementor.json"
+      ],
+      "port": 9700,
+      "description": "WordPress with Elementor drag-and-drop editor (visual editing)"
+    }
+  ]
+}

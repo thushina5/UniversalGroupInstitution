@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la)",
+      "Bash(node -v)",
+      "Bash(npm -v)",
+      "PowerShell(node -v)",
+      "PowerShell(npm -v)",
+      "Bash(node -e \"const f=require\\('fs'\\);const d=JSON.parse\\(f.readFileSync\\('universal-institutions-home.json','utf8'\\)\\);console.log\\('Valid JSON. Sections:',d.content.length,'| version:',d.version,'| type:',d.type\\);\")",
+      "Bash(python -c \"import json;d=json.load\\(open\\('universal-institutions-home.json'\\)\\);print\\('Valid JSON. Sections:',len\\(d['content']\\),'| version:',d['version'],'| type:',d['type']\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:9400/)",
+      "Bash(curl -s -I \"http://127.0.0.1:9400/\")",
+      "Bash(curl -s -I \"http://127.0.0.1:9400/wp-admin/\")",
+      "WebFetch(domain:universalinstitutions.com)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" --max-time 6 http://127.0.0.1:9400/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" --max-time 6 http://127.0.0.1:9600/)",
+      "Bash(curl -s -b /tmp/elem9700.txt http://127.0.0.1:9700/wp-json/wp/v2/settings)",
+      "Bash(curl -s -b /tmp/elemfinal.txt http://127.0.0.1:9700/wp-json/wp/v2/settings)",
+      "Bash(grep -oE '\"id\":[0-9]+|\"rendered\":\"[^\"]{0,40}|template\":\"[^\"]*\"')",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
